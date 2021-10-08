@@ -1,0 +1,20 @@
+Package: switchboard
+Version: 0.1
+Date: 2021-10-8
+Title: An Agile Widget Engine for Real-Time, Dynamic Visualizations
+Authors@R: person(given = "Marc J.", family = "Lajeunesse", role = c("aut", "cre"),
+  email = "lajeunesse@usf.edu", comment = c(ORCID = "0000-0002-9678-2080"))
+Description: An unsorted collection of visualization widgets rendered in 'Tcl/Tk'<https://www.tcl.tk/> to generate agile dashboards for your iterative simulations. Widgets include progress bars, counters, eavesdroppers, injectors, switches, and sliders for dynamic manipulation and visualization of simulation parameters.
+Type: Package
+Depends:
+    R (>= 3.3.2)
+Imports:
+  magrittr  
+SystemRequirements: Tcl/Tk toolkit (X11 Quarts for Mac)
+VignetteBuilder: R.rsp
+License: GPL (>= 2)
+URL: http://lajeunesse.myweb.usf.edu/ https://github.com/mjlajeunesse/ https://www.youtube.com/c/LajeunesseLab/
+Encoding: UTF-8
+RoxygenNote: 7.1.2
+Suggests:
+	R.rsp
